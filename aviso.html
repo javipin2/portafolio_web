@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/aviso.css">
+    <title>Aviso</title>
+</head>
+<body>
+    <br><br><br><br><br><br><br>
+        <center>
+            <h1 class="aviso" id="message"></h1>
+        </center>
+    <br><br><br><br><br>
+        <center><a href="index.html" class="boton-volver">VOLVER</a></center>
+
+    <script>
+        // Obtiene los datos del localStorage
+        const name = localStorage.getItem('name');
+        const email = localStorage.getItem('email');
+
+        // Muestra el mensaje en la página
+        document.getElementById('message').innerText = `Hola ${name}, muchas gracias por comunicarte con nosotros. Nos pondremos en contacto contigo por tu correo ${email}.`;
+    </script>
+</body>
+</html>

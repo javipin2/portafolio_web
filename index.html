@@ -6,10 +6,10 @@
     <meta name="description" content="portafolio javi" />
     <title>portafolio javi</title>
     <!--favicon-img-->
-    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png')}}">
+    <link rel="icon" type="image/png" href="static/images/favicon.png">
     <!--favicon-img-->
     <!--main css file should not be removed -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css')}}">
+    <link rel="stylesheet" href="static/css/index.css">
     <!--main css file-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
 </head>
@@ -42,9 +42,9 @@
             <div class="navigation-links">
                 <a href="#" data-text="INICIO" id="home-link">INICIO</a>
                 <a href="#" data-text="SOBRE MI" id="about-link">SOBRE MI <3 </a>
-                        <a href="#" data-text="BLOG" id="blog-link">BLOG</a>
-                        <a href="#" data-text="PORTAFOLIO" id="portfolio-link">PORTFOLIO</a>
-                        <a href="#" data-text="CONTACTAME" id="contact-link">CONTACTAME</a>
+                <a href="#" data-text="BLOG" id="blog-link">BLOG</a>
+                <a href="#" data-text="PORTAFOLIO" id="portfolio-link">PORTAFOLIO</a>
+                <a href="#" data-text="CONTACTAME" id="contact-link">CONTACTAME</a>
             </div>
         </div>
         <!--Navigator-Fullscreen END-->
@@ -65,15 +65,15 @@
             <!--Social Media Links-->
             <div class="social-media-links">
                 <a href="https://www.instagram.com/javierenrique249/" target="_blank"><img
-                        src="{{ url_for('static', filename='images/instagram logo.png')}}" class="social-media"
+                        src="static/images/instagram logo.png" class="social-media"
                         alt="instagram-logo"></a><!--Your instagram homepage link inser in place of "#"-->
                 <a href="https://web.facebook.com/profile.php?id=100019152415022&locale=es_LA" target="_blank"><img
-                        src="{{ url_for('static', filename='images/facebook logo.png')}}" class="social-media"
+                        src="static/images/facebook logo.png" class="social-media"
                         alt="facebook-logo"></a>
-                <a href="https://www.linkedin.com/in/javier-enrique-pinzon-amel-731080264/" target="_blank"><img src="{{ url_for('static', filename='images/linkedin logo.png')}}"
+                <a href="https://www.linkedin.com/in/javier-enrique-pinzon-amel-731080264/" target="_blank"><img src="static/images/linkedin logo.png"
                         class="social-media" alt="linkedin-logo"></a>
                 <a href="https://x.com/AmelPinzon" target="_blank"><img
-                        src="{{ url_for('static', filename='images/twitter logo.png')}}" class="social-media"
+                        src="static/images/twitter logo.png" class="social-media"
                         alt="twitter-logo"></a>
 
             </div>
@@ -88,16 +88,16 @@
                         <span class="slash">|</span>
                     </div>
                     <div class="contact">
-                        <a href="Mailto:#"><img src="{{ url_for('static', filename='images/mail.png')}}" alt="email-pic"
+                        <a href="Mailto:#"><img src="static/images/mail.png" alt="email-pic"
                                 class="contactpic"></a><!--Your email Id write in place of "#"-->
-                        <a href="Tel:#"><img src="{{ url_for('static', filename='images/call.png')}}" alt="phone-pic"
+                        <a href="Tel:#"><img src="static/images/call.png" alt="phone-pic"
                                 class="contactpic"></a><!--Your telephone number Id write in place of "#"-->
                     </div>
                 </div>
             </div>
             <!--header image-->
             <div class="header-image">
-                <img src="{{ url_for('static', filename='images/man.png')}}" alt="logo">
+                <img src="static/images/man.png" alt="logo">
             </div>
             <!--header image end-->
         </div>
@@ -108,7 +108,7 @@
         <div id="about">
             <div class="color-changer">
                 <div class="color-panel">
-                    <img src="{{ url_for('static', filename='images/color.png')}}" alt="">
+                    <img src="static/images/color.png" alt="">
                 </div>
                 <div class="color-selector">
                     <div class="heading">Custom Colors</div>
@@ -153,13 +153,10 @@
                             programacion donde he aprendido mucho y me he destacado, adquiriendo los conocimientos
                             necesarios para llevar a cabo varios proyectos y puedo decir con alegria que he disfrutado
                             cada paso que he dado.</span>
-
-
-
                     </div>
                     <!--about picture-->
                     <div class="about-img">
-                        <img src="{{url_for('static', filename='images/about.jpg')}}" alt="Your Image">
+                        <img src="static/images/about.jpg" alt="Your Image">
                     </div>
                 </div>
             </div>
@@ -168,7 +165,7 @@
             <div id="services">
                 <div class="color-changer">
                     <div class="color-panel">
-                        <img src="{{ url_for('static', filename='images/gear.png')}}" alt="">
+                        <img src="static/images/gear.png" alt="">
                     </div>
                     <div class="color-selector">
                         <div class="heading">colorsitos : )</div>
@@ -205,7 +202,7 @@
                 <div class="services-content">
                     <div class="service-one service wow">
                         <div class="service-img">
-                            <img src="{{ url_for('static', filename='images/coding.png')}}" alt="service-one">
+                            <img src="static/images/coding.png" alt="service-one">
                         </div>
                         <div class="service-description">
                             <h2>Diseno web</h2>
@@ -214,17 +211,17 @@
                     </div>
                     <div class="service-two service wow">
                         <div class="service-img">
-                            <img src="{{ url_for('static', filename='images/instagram.png')}}" alt="service-two">
+                            <img src="static/images/instagram.png" alt="service-two">
                         </div>
                         <div class="service-description">
                             <h2>Redes sociales</h2>
                             <p>Tengo agilidad con redes sociales al momento de promocionar un producto, publicitarlo y
                                 hacer marketing.</p>
-                        </div>
+ </div>
                     </div>
                     <div class="service-three service wow">
                         <div class="service-img">
-                            <img src="{{ url_for('static', filename='images/bulb.png')}}" alt="service-three">
+                            <img src="static/images/bulb.png" alt="service-three">
                         </div>
                         <div class="service-description">
                             <h2>Creatividad</h2>
@@ -291,7 +288,6 @@
                             <div class="jquery-progress wow">100%</div>
                         </div>
                     </div>
-
                 </div>
             </div>
             <!--copyright-section You Can Remove After Downloading-->
@@ -303,7 +299,7 @@
         <div id="portfolio">
             <div class="color-changer">
                 <div class="color-panel">
-                    <img src="{{ url_for('static', filename='images/gear.png')}}" alt="">
+                    <img src="static/images/gear.png" alt="">
                 </div>
                 <div class="color-selector">
                     <div class="heading">Custom Colors</div>
@@ -337,37 +333,34 @@
             <div id="portfolio-content">
                 <div class="portfolio portfolio-first">
                     <div class="portfolio-image">
-                        <img src="{{url_for('static', filename='images/portfolio-first.jpg')}}" alt="portfolio-first">
+                        <img src="static/images/portfolio-first.jpg" alt="portfolio-first">
                     </div>
                     <div class="portfolio-text">
                         <h2>Programsa en python</h2>
                         <p>He creado varios programas en python que facilitan y automatizan la tareas sencillas en el
                             mundo de la programacion </p>
-
                     </div>
                 </div>
                 <div class="portfolio portfolio-second">
                     <div class="portfolio-image">
-                        <img src="{{url_for('static', filename='images/portfolio-second.jpg')}}" alt="portfolio-second">
+                        <img src="static/images/portfolio-second.jpg" alt="portfolio-second">
                     </div>
                     <div class="portfolio-text">
-                        <h2>pagina web</h2>
+                        <h2> pagina web</h2>
                         <p>he creado varias paginas web con HTMl, CSS y JavaScript destacando mi agilidad con el diseno
                             web y la programacion</p>
-
                     </div>
                 </div>
 
                 <div class="portfolio portfolio-third">
                     <div class="portfolio-image">
-                        <img src="{{url_for('static', filename='images/portfolio-third.jpg')}}" alt="portfolio-third">
+                        <img src="static/images/portfolio-third.jpg" alt="portfolio-third">
                     </div>
                     <div class="portfolio-text">
                         <h2>App de proyecto</h2>
                         <p>Estoy en el proceso de creacion de un app donde automatice y de mas facilidad a la hora de la
                             gestion de alquilar canchas sinteticas, donde estare usando html, css, python y JavaScript.
                         </p>
-
                     </div>
                 </div>
             </div>
@@ -380,7 +373,7 @@
         <div id="blog">
             <div class="color-changer">
                 <div class="color-panel">
-                    <img src="{{ url_for('static', filename='images/gear.png')}}" alt="">
+                    <img src="static/images/gear.png" alt="">
                 </div>
                 <div class="color-selector">
                     <div class="heading">Custom Colors</div>
@@ -415,7 +408,7 @@
                     <div class="blogs">
                         <a href="#">
                             <div class="img">
-                                <img src="{{url_for('static', filename='images/post-one.jpg')}}" alt="blog-one">
+                                <img src="static/images/post-one.jpg" alt="blog-one">
                                 <div class="blog-date">8 May,20</div>
                             </div>
                             <div class="blog-text">
@@ -428,7 +421,7 @@
                     <div class="blogs">
                         <a href="#">
                             <div class="img">
-                                <img src="{{url_for('static', filename='images/post-two.jpg')}}" alt="blog-two">
+                                <img src="static/images/post-two.jpg" alt="blog-two">
                                 <div class="blog-date">16 Jan,20</div>
                             </div>
                             <div class="blog-text">
@@ -442,7 +435,7 @@
                     <div class="blogs">
                         <a href="#">
                             <div class="img">
-                                <img src="{{url_for('static', filename='images/post-three.jpg')}}" alt="blog-three">
+                                <img src="static/images/post-three.jpg" alt="blog-three">
                                 <div class="blog-date">30 Nov,19</div>
                             </div>
                             <div class="blog-text">
@@ -455,7 +448,7 @@
                     <div class="blogs">
                         <a href="#">
                             <div class="img">
-                                <img src="{{url_for('static', filename='images/post-four.jpg')}}" alt="blog-four">
+                                <img src="static/images/post-four.jpg" alt="blog-four">
                                 <div class="blog-date">6 Jul,19</div>
                             </div>
                             <div class="blog-text">
@@ -468,7 +461,7 @@
                     <div class="blogs">
                         <a href="#">
                             <div class="img">
-                                <img src="{{url_for('static', filename='images/post-five.jpg')}}" alt="blog-five">
+                                <img src="static/images/post-five.jpg" alt="blog-five">
                                 <div class="blog-date">1 Jun,19</div>
                             </div>
                             <div class="blog-text">
@@ -492,7 +485,7 @@
         <div id="contact">
             <div class="color-changer">
                 <div class="color-panel">
-                    <img src="{{url_for('static', filename='images/gear.png')}}" alt="">
+                    <img src="static/images/gear.png" alt="">
                 </div>
                 <div class="color-selector">
                     <div class="heading">Custom Colors</div>
@@ -528,7 +521,7 @@
                         <div class="form-header">
                             Envia un mensaje
                         </div>
-                        <form action="dat" method="post" id="myForm">
+                        <form action="myForm" method="post" id="myForm">
                             <div class="input-line">
                                 <input id="name" name="name" type="text" placeholder="Nombre" class="input-name">
                                 <input id="email" name="email" type="email" placeholder="Email" class="input-name">
@@ -547,7 +540,7 @@
                         </div>
                         <div class="contact-info-content">
                             <div class="contect-info-content-line">
-                                <img src="{{url_for('static', filename='images/icon-name.png')}}" class="icon"
+                                <img src="static/images/icon-name.png" class="icon"
                                     alt="name-icon">
                                 <div class="contact-info-icon-text">
                                     <h6>Nombre</h6>
@@ -555,7 +548,7 @@
                                 </div>
                             </div>
                             <div class="contect-info-content-line">
-                                <img src="{{url_for('static', filename='images/icon-location.png')}}" class="icon"
+                                <img src="static/images/icon-location.png" class="icon"
                                     alt="location-icon">
                                 <div class="contact-info-icon-text">
                                     <h6>Ubicacion</h6>
@@ -563,7 +556,7 @@
                                 </div>
                             </div>
                             <div class="contect-info-content-line">
-                                <img src="{{url_for('static', filename='images/icon-phone.png')}}" class="icon"
+                                <img src="static/images/icon-phone.png" class="icon"
                                     alt="phone-icon">
                                 <div class="contact-info-icon-text">
                                     <h6>Numero telefonico</h6>
@@ -572,7 +565,7 @@
                             </div>
 
                             <div class="contect-info-content-line">
-                                <img src="{{url_for('static', filename='images/icon-email.png')}}" class="icon"
+                                <img src="static/images/icon-email.png" class="icon"
                                     alt="email-icon">
                                 <div class="contact-info-icon-text">
                                     <h6>Email</h6>
@@ -583,6 +576,7 @@
                         <!--Contact information end-->
                     </div>
                 </div>
+                <!--copyright-section ```html-->
                 <!--copyright-section You Can Remove After Downloading-->
 
                 <!--copyright-section-->
@@ -590,10 +584,11 @@
             <!--contact end-->
         </div>
         <!--all the divisions-->
-        <script src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
-        <script src="{{url_for('static', filename='js/particles.js')}}"></script>
-        <script src="{{url_for('static', filename='js/particles.min.js')}}"></script>
-        <script src="{{url_for('static', filename='js/index.js')}}"></script>
+        <script src="static/js/jquery.min.js"></script>
+        <script src="static/js/particles.js"></script>
+        <script src="static/js/particles.min.js"></script>
+        <script src="static/js/index.js"></script>
+        <script src="static/js/aviso.js"></script>
         <!--particles script-->
         <script>
             particlesJS("particles", { "particles": { "number": { "value": 60, "density": { "enable": true, "value_area": 800 } }, "color": { "value": "#fff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.5, "random": true, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 7, "random": true, "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false } }, "line_linked": { "enable": false, "distance": 500, "color": "#ffffff", "opacity": 0.4, "width": 2 }, "move": { "enable": true, "speed": 3, "direction": "bottom", "random": false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "bubble" }, "onclick": { "enable": true, "mode": "repulse" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 0.5 } }, "bubble": { "distance": 400, "size": 4, "duration": 0.3, "opacity": 1, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true });
